@@ -23,9 +23,7 @@ function App() {
           <Route path='/item/:itemId' element={<ItemDetailContainer />}/>
         </Routes>
       </BrowserRouter>
-      /*
-      
-      
+      /*      
       <ItemCount stock={5} initial={1} onAdd={onAdd} /
 
 sdd

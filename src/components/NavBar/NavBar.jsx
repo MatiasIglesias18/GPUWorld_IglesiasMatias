@@ -18,12 +18,17 @@ export const NavBar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Contacto</Nav.Link>
                 <NavDropdown title="Productos" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">AMD</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Nvidia</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                <NavDropdown.Item>
+                    <Link to={"/category/amd"}>
+                        Amd
+                    </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item >
+                    <Link to={"/category/nvidia"}>
+                        Nvidia
+                    </Link>
+                </NavDropdown.Item>
                 </NavDropdown>
             </Nav>
             </Navbar.Collapse>
