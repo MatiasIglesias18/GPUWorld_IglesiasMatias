@@ -1,0 +1,15 @@
+#item-list-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #item{
+        margin: 20px;
+        .button-detail{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

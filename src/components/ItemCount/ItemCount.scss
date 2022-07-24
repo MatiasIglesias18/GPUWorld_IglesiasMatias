@@ -1,0 +1,30 @@
+#item-count{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    height: 200px;
+    width: 200px;
+    
+    .count{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            margin: 10px;
+            padding: 10px;
+            background-color: rgb(142, 142, 143);        }
+              
+        }
+    .add{
+        margin: 10px;
+        padding: 10px;
+    }
+    button{
+        background-color: rgb(142, 142, 143);
+        border-color: blue;
+
+    }
+
+}
