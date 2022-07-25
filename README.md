@@ -24,4 +24,3 @@ Permite estilar la web con el lenguaje de hojas de estilo Sass
 ### `npm install react-icons --save`
 
 Permite usar iconos solo importandolos
-
